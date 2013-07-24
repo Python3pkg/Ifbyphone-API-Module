@@ -84,4 +84,5 @@ class Sms(IfbyphoneApiBase):
         """
         self.options['number'] = number
         self.options['action'] = 'sms.unregister_number'
+        return self.call(self.options)
         

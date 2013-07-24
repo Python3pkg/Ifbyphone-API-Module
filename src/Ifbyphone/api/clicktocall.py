@@ -23,4 +23,4 @@ class Clicktocall(IfbyphoneApiBase):
         
         self.options.update(kwargs)
         self.options['app'] = 'ctc'
-        self.call(self.options, 'click_to_xyz.php', 'key')
+        return self.call(self.options, 'click_to_xyz.php', 'key')
