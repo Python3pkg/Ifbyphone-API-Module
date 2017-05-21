@@ -1,4 +1,4 @@
-from base import IfbyphoneApiBase
+from .base import IfbyphoneApiBase
 
 class Transcription(IfbyphoneApiBase):
 
